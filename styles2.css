@@ -1,0 +1,167 @@
+.second-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 400px;
+    box-sizing: border-box;
+    
+}
+
+.second-div-1{
+    display: flex;
+}
+
+.second-div div{
+    margin-left: 5px;
+    margin-right: 5px;
+    flex-basis: 20%;
+    padding: 5px;
+}
+
+.second-div-button{
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    padding: 5px;
+    width: 100px;
+}
+
+.second-div-button:hover{
+    color: black;
+    background-color: white;
+    border: solid 1px black;
+    transition: 0.5s;
+}
+
+.second-div-button:active{
+    transform: translateY(-5px);
+    background-color: goldenrod
+}
+.p3{
+    font-size: 2rem;
+    text-emphasis: bold;
+    text-align: start;
+}
+.p4{
+    text-align: justify;
+}
+
+
+.second-div3{
+    height: 80%;
+    align-self: end;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-sizing: border-box;
+    align-items: end;
+    flex-wrap: wrap;
+    transition: background-color 0.3s;
+}
+
+.second-div3-p{
+    text-align: center;
+    flex-basis: 100%;
+    margin-top: auto;
+    align-self: center;
+}
+
+.second-div3 img{
+    position: absolute;
+    top: -130px;
+    width: 120%;
+    left: -10%;
+
+}
+
+.second-div3:hover{
+    border: 2px solid #dee7e6;
+    background-color: #dee7e6 ;
+    cursor: pointer;
+}
+.second-div3:hover #circular-button{
+    visibility: visible;
+    opacity: 1;
+}
+
+#circular-button{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    bottom: -10px;
+    
+    position: absolute;
+    padding: 0px;
+    border-radius: 50%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+#span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+@media screen and (max-width:768px){
+    .second-div{
+        flex-direction: column;
+        gap: 150px;
+        margin-top: 320px;
+        height: 400px;
+    }
+    .second-div3{
+        flex-basis: 100%;
+        align-self: center;
+        
+    }
+
+    .p3{
+        text-align: center;
+    }
+   /* .second-div-button{
+        justify-self: center;
+        align-self: center;
+        transform: translate(-50%,-50%);
+     
+    }*/
+
+    #chair-2{
+       top: -150px;
+    }
+
+    .second-div-1{
+        justify-content: center;
+        align-items: center;
+    }
+    .second-div-button:active{
+        /*transform: translate(px, 5px);*/
+        transform: translateY(5px);
+    }
+
+    #second-div-button-id{
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+    .
+}
+
+@media screen and (max-width: 320px) {
+    .second-div{
+        margin-top: 380px;
+    }
+
+    
+}

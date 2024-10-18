@@ -1,0 +1,138 @@
+body{
+    box-sizing: border-box;
+    margin: none;
+    height: 500px;
+    
+}
+
+.first{
+    background-color: #385d51;
+    color: white;
+    height: 60vh;
+    flex-direction: row;
+
+}
+
+.first-1{
+    padding-top: 40px;
+    flex-basis: 30%;
+    
+    
+}
+
+.first-2{
+    display: inline-block;
+    position: relative;
+    flex-basis: 70%;
+    
+}
+
+.button-1, .button-2{
+    border-radius: 15px;
+    width: 89.625px;
+}
+
+.button-1{
+    background-color: #f6be26;
+    border: none;
+}
+
+.button-2{
+    background-color: transparent; /* Makes the background transparent */
+    border: 2px solid #000; /* Adds a border to the button */
+    color: #fff; /* Sets the text color */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering */
+    border: 1px solid #fff;
+
+}
+
+
+.img-1{
+    position: absolute;
+    width: 70%;
+    box-sizing: border-box;
+    right: 20px;
+    top: -15px;
+    right: 100px;
+
+}
+
+.hero-head{
+    font-size: 2em;
+}
+
+@media screen and (min-width: 768px) {
+    .first-1{
+        padding-left: 10%;
+        
+    }
+    .button-div{
+        
+    }
+
+    
+    
+}
+
+
+@media screen and (max-width: 767px) {
+    .first{
+        flex-direction: column;
+        height: 80vh;
+    }
+    .img-1{
+        left: 50%;
+            transform: translate(-50%, -50%);
+        width: 60%;
+        top: 50%;
+    }
+    .hero-head{
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .hero-p{
+        text-align: center;
+    }
+
+    .first-1{
+        flex-basis: 100%;
+        
+        
+    }
+    
+    .first-2{
+        margin-top: 30px;
+        flex-basis: 100%;
+        
+    }
+
+    .button-div{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    button{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px){
+    
+    .first-1{
+        flex-basis: 40%;
+        
+        
+    }
+    
+    .first-2{
+        flex-basis: 60%;
+        
+    }
+}
+
