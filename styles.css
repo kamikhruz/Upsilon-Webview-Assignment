@@ -46,6 +46,16 @@ body{
 
 }
 
+.button-1:hover{
+    transform: translateY(3px);
+    transition: 0.4s;
+}
+.button-2:hover{
+    background-color: #000;
+    transition: 0.4s;
+}
+
+
 
 .img-1{
     position: absolute;
@@ -135,4 +145,6 @@ body{
         
     }
 }
+
+
 
